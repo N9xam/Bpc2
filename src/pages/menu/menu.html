@@ -1,0 +1,58 @@
+<ion-header >
+  <ion-navbar>
+
+  </ion-navbar>
+ </ion-header>
+
+ <ion-content padding>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col >
+        <button ion-button block full large icon-left color="dark"  (click)="goToTable()">
+        <ion-icon name="grid"></ion-icon>
+          <p>ตาราง</p>
+        </button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col >
+        <button ion-button block full large icon-left color="dark" (click)="goToGraph()">
+        <ion-icon name="podium"></ion-icon>
+          <p>กราฟ</p>
+        </button>
+      </ion-col>
+  </ion-row>
+
+    <ion-row>
+      <ion-col >
+        <button ion-button block full large icon-left color="dark" (click)="goToIssue()">
+          <ion-icon name="warning"></ion-icon>
+          <p>แจ้งปัญหา</p>
+        </button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col >
+        <button ion-button block full large icon-left color="dark" (click)="goToMaid()">
+          <ion-icon name="person"></ion-icon>
+          <p>รายชื่อแม่บ้าน</p>
+        </button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button block full large icon-left color="dark" (click)="goToReport()">
+          <ion-icon name="paper"></ion-icon>
+          <p>รายการแจ้งปัญหา</p>
+        </button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+ </ion-content>

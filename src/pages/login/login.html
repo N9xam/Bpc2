@@ -1,0 +1,27 @@
+
+<ion-header >
+  <ion-navbar>
+    <ion-title>เข้าสู่ระบบ</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label stacked> ชื่อผู้ใช้ </ion-label>
+    <ion-input [(ngModel)]="username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked> รหัสผ่าน </ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+
+  <div text-center margin-top >
+    <button ion-button (click)="goToMenu()" icon-left color="secondary">
+      ยืนยัน
+    </button>
+  </div>
+
+</ion-content>

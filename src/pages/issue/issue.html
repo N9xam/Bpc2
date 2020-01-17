@@ -1,0 +1,76 @@
+
+<ion-header >
+  <ion-navbar>
+    <ion-title>แจ้งปัญหา</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label stacked> อาคาร </ion-label>
+          <ion-input>  </ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col col-6>
+        <ion-item>
+          <ion-label stacked> ชั้น </ion-label>
+          <ion-input>  </ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <br>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+
+          <ion-list-header> ปัญหา </ion-list-header>
+            <ion-item>
+              <ion-label> ควันบุหรี่ </ion-label>
+              <ion-checkbox color="primary"></ion-checkbox>
+              <!--<ion-checkbox color="primary" checked slot="start"></ion-checkbox>-->
+            </ion-item>
+            <ion-item>
+              <ion-checkbox color="primary"></ion-checkbox>
+              <!--<ion-checkbox color="primary" checked slot="start"></ion-checkbox>-->
+              <ion-label> กลิ่นเหม็น </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-checkbox color="primary"></ion-checkbox>
+              <!--<ion-checkbox color="primary" checked slot="start"></ion-checkbox>-->
+              <ion-label> ถังขยะเต็ม </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-checkbox color="primary"></ion-checkbox>
+              <!--<ion-checkbox color="primary" checked slot="start"></ion-checkbox>-->
+              <ion-label> น้ำรั่ว </ion-label>
+            </ion-item>
+            <br>
+            <ion-item>
+              <ion-label position="floating" style="color: red;">** เพิ่มเติม</ion-label>
+              <ion-textarea></ion-textarea>
+            </ion-item>
+
+        <br>
+
+        <ion-item>
+          <ion-checkbox color="danger"></ion-checkbox>
+          <ion-label> แก้ไขด่วน </ion-label>
+        </ion-item>
+
+        <div text-center margin-top >
+          <Button ion-button expand="block">ยืนยันการแจ้งปัญหา</Button>
+        </div>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
